@@ -18,6 +18,13 @@ body {
   background-color: var(--dark-color);
   overflow: hidden;
   perspective: 1000px;
+  
+}
+body h2{
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-top: 5rem;
 }
 
 .night {
@@ -610,7 +617,6 @@ body {
   border-top-left-radius: 100%;
   border-left: 2vmin solid #217005;
   background-image: linear-gradient(to bottom, transparent, var(--dark-color) 60%);
- -webkit-mask
   -webkit-mask-image: linear-gradient(to top,transparent 30%,#24803e 60% );
 }
 .flower__g-right--1 {
